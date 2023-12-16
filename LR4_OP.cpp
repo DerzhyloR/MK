@@ -35,7 +35,7 @@ public:
     void zapus() {
         ofstream file;
         file.open("figury.txt");
-        file << "Назва фігури:\n";
+        file << "Назва фігури!:\n";
         file << "------------------------\n";
         file << "����:\n";
         file << "�����: " << R;
